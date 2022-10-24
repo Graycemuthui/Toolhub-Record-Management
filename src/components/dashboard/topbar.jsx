@@ -12,7 +12,7 @@ const Topbar = () => {
   const colorMode = useContext(ColorModeContext);
 
   return (
-    <Box display="flex" justifyContent="space-between" p={2}>
+    <Box display="flex" justifyContent="space-between" p={1}>
       <Box display="flex">
         <h1 sx={{ ml: 2, flex: 1 }}>Toolhub Records</h1>
       </Box>
