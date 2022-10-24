@@ -1,5 +1,5 @@
-const sideBar = () => {
+const SideBar = () => {
   return <div>Sidebar</div>;
 };
 
-export default sideBar;
+export default SideBar;
