@@ -7,7 +7,7 @@ import MainPage from "./components/dashboard/mainpage";
 import Form from "./components/pages/form";
 import Line from "./components/pages/line";
 import Pie from "./components/pages/pie";
-import Tools from "./components/pages/tools";
+import Tools from "./components/pages/records";
 
 function App() {
   const [theme, colorMode] = useMode();
