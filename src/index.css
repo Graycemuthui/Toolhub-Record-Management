@@ -30,3 +30,7 @@ body,
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+.mainpage {
+  padding: 2rem;
+}

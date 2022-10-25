@@ -14,7 +14,7 @@ const Topbar = () => {
   return (
     <Box display="flex" justifyContent="space-between" p={1}>
       <Box display="flex">
-        <h1 sx={{ ml: 2, flex: 1 }}>Toolhub Records</h1>
+        <h1 sx={{ ml: 6, flex: 1 }}>Toolhub Records</h1>
       </Box>
       {/* ICONS */}
       <Box display="flex">
