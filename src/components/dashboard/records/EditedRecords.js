@@ -6,7 +6,7 @@ import DoneOutlinedIcon from "@mui/icons-material/DoneOutlined";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
 import Header from "../../Header/Header";
 
-const Records = () => {
+const EditedRecords = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const columns = [
@@ -47,20 +47,13 @@ const Records = () => {
             p="5px"
             display="flex"
             justifyContent="center"
-            backgroundColor={
-              edited === true
-                ? colors.greenAccent[600]
-                : edited === false
-                ? colors.blueAccent[700]
-                : colors.blueAccent[700]
-            }
+            backgroundColor={edited === true && colors.greenAccent[600]}
             borderRadius="4px"
           >
             {edited === true && <DoneOutlinedIcon />}
-            {edited === false && <CloseOutlinedIcon />}
 
             <Typography color={colors.grey[200]} sx={{ ml: "5px" }}>
-              {edited}
+              {edited === true}
             </Typography>
           </Box>
         );
@@ -110,4 +103,4 @@ const Records = () => {
   );
 };
 
-export default Records;
+export default EditedRecords;
