@@ -1,12 +1,12 @@
 import { Box, Typography, useTheme } from "@mui/material";
 import { DataGrid } from "@mui/x-data-grid";
-import { tokens } from "../../color";
-import { records } from "../data/MockData";
+import { tokens } from "../../../color";
+import { records } from "../../data/MockData";
 import DoneOutlinedIcon from "@mui/icons-material/DoneOutlined";
 import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
-import Header from "../../components/Header";
+import Header from "../../Header";
 
-const Records = () => {
+const MissingRecords = () => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
   const columns = [
@@ -16,13 +16,6 @@ const Records = () => {
       headerName: "Name",
       flex: 1,
       cellClassName: "name-column--cell",
-    },
-    {
-      field: "age",
-      headerName: "Age",
-      type: "number",
-      headerAlign: "left",
-      align: "left",
     },
     {
       field: "phone",
@@ -70,7 +63,10 @@ const Records = () => {
 
   return (
     <Box m="20px">
-      <Header title="TEAM" subtitle="Managing the Team Members" />
+      <Header
+        title="MISSING RECORDS"
+        subtitle="Total number of missing tool records"
+      />
       <Box
         m="40px 0 0 0"
         height="75vh"
@@ -110,4 +106,4 @@ const Records = () => {
   );
 };
 
-export default Records;
+export default MissingRecords;
