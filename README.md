@@ -1,6 +1,6 @@
 # Project Name : Toolhub Record Management
 
-> This project enatils record management for the toolhub project.
+> This project entails record management for the toolhub project. It consists of  a Homepage, Leaderboard and Dashboard.
 
 ## Built With
 
@@ -11,7 +11,7 @@
 
 ## Live Demo (Not ava)
 
-- Not yet available
+- Here is a live demo [link](https://spontaneous-mooncake-378561.netlify.app)
 
 ## Getting Started
 
