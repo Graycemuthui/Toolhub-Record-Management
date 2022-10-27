@@ -3,7 +3,7 @@ import { DataGrid } from "@mui/x-data-grid";
 import { tokens } from "../../../color";
 import { records } from "../../data/MockData";
 import DoneOutlinedIcon from "@mui/icons-material/DoneOutlined";
-import CloseOutlinedIcon from "@mui/icons-material/CloseOutlined";
+
 import Header from "../Header/Header";
 
 const EditedRecords = () => {

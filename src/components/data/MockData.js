@@ -7,6 +7,7 @@ export const records = {
       age: 35,
       phone: "(665)121-5454",
       edited: false,
+      edits: 0,
     },
     {
       id: 2,
@@ -15,6 +16,7 @@ export const records = {
       age: 42,
       phone: "(421)314-2288",
       edited: false,
+      edits: 0,
     },
     {
       id: 3,
@@ -23,6 +25,7 @@ export const records = {
       age: 45,
       phone: "(422)982-6739",
       edited: true,
+      edits: 3,
     },
     {
       id: 4,
@@ -31,6 +34,7 @@ export const records = {
       age: 16,
       phone: "(921)425-6742",
       edited: false,
+      edits: 0,
     },
     {
       id: 5,
@@ -39,6 +43,7 @@ export const records = {
       age: 31,
       phone: "(421)445-1189",
       edited: true,
+      edits: 2,
     },
     {
       id: 6,
@@ -47,6 +52,7 @@ export const records = {
       age: 150,
       phone: "(232)545-6483",
       edited: true,
+      edits: 29,
     },
     {
       id: 7,
@@ -55,6 +61,7 @@ export const records = {
       age: 44,
       phone: "(543)124-0123",
       edited: false,
+      edits: 0,
     },
     {
       id: 8,
@@ -63,6 +70,7 @@ export const records = {
       age: 36,
       phone: "(222)444-5555",
       edited: false,
+      edits: 0,
     },
     {
       id: 9,
@@ -71,6 +79,7 @@ export const records = {
       age: 65,
       phone: "(444)555-6239",
       edited: false,
+      edits: 0,
     },
     {
       id: 10,
@@ -78,6 +87,7 @@ export const records = {
       email: "kiana@gmail.com",
       phone: "(421)314-2288",
       edited: true,
+      edits: 14,
     },
     {
       id: 11,
@@ -85,6 +95,7 @@ export const records = {
       email: "graycemuthui20@gmail.com",
       phone: "(901)314-2288",
       edited: true,
+      edits: 24,
     },
     {
       id: 12,
@@ -92,6 +103,7 @@ export const records = {
       email: "kamau@gmail.com",
       phone: "(421)316-2789",
       edited: true,
+      edits: 4,
     },
     {
       id: 13,
@@ -99,6 +111,7 @@ export const records = {
       email: "mike@gmail.com",
       phone: "(221)309-2678",
       edited: false,
+      edits: 0,
     },
     {
       id: 14,
@@ -107,6 +120,7 @@ export const records = {
       age: 30,
       phone: "(421)445-2234",
       edited: true,
+      edits: 34,
     },
     {
       id: 15,
@@ -115,6 +129,7 @@ export const records = {
       age: 35,
       phone: "(421)445-1189",
       edited: false,
+      edits: 0,
     },
     {
       id: 16,
@@ -123,6 +138,7 @@ export const records = {
       age: 40,
       phone: "(421)445-1459",
       edited: true,
+      edits: 4,
     },
     {
       id: 17,
@@ -130,6 +146,7 @@ export const records = {
       email: "shaq@gmail.com",
       phone: "(445)445-1249",
       edited: true,
+      edits: 24,
     },
     {
       id: 18,
@@ -137,6 +154,7 @@ export const records = {
       email: "sandy@gmail.com",
       phone: "(341)235-1163",
       edited: false,
+      edits: 0,
     },
   ],
 };

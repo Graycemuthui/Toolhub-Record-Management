@@ -66,6 +66,12 @@ const Records = () => {
         );
       },
     },
+    {
+      field: "edits",
+      headerName: "Edits",
+      type: "number",
+      flex: 1,
+    },
   ];
 
   return (

@@ -41,7 +41,7 @@ const Navbar = () => {
               >
                 <Tab label="Home" to="/" component={Link} />
                 <Tab label="Dashboard" to="/mainpage" component={Link} />
-                <Tab label="Leaderboard" />
+                <Tab label="Leaderboard" to="/leaderboard" component={Link} />
               </Tabs>
               <Button sx={{ marginLeft: "auto" }} variant="contained">
                 Login
