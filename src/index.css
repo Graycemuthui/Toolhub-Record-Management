@@ -34,3 +34,8 @@ body,
 .mainpage {
   padding: 2rem;
 }
+
+.heading {
+  margin-top: 4rem;
+  padding: 0;
+}
