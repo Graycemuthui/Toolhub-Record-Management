@@ -63,7 +63,10 @@ const EditedRecords = () => {
 
   return (
     <Box m="20px">
-      <Header title="TOTAL" subtitle="Total number of tool records" />
+      <Header
+        title="EDITED RECORDS"
+        subtitle="Total number of edited tool records"
+      />
       <Box
         m="40px 0 0 0"
         height="75vh"
@@ -95,7 +98,9 @@ const EditedRecords = () => {
       >
         <DataGrid
           checkboxSelection
-          rows={records.mockDataRecords}
+          rows={records.mockDataRecords.filter(
+            (record) => record.edited === true
+          )}
           columns={columns}
         />
       </Box>
