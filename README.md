@@ -9,7 +9,7 @@
 - Library and Framework : `React, React-redux, Jest, React-test-renderer`
 - Technologies used : Github, Git, Gitflow and Linters
 
-## Live Demo (Not ava)
+## Live Demo
 
 - Here is a live demo [link](https://spontaneous-mooncake-378561.netlify.app)
 
