@@ -46,6 +46,7 @@ To get a local copy up and running follow these simple example steps.
 - `npx stylelint "**/*.{css,scss}"` : for the `css` codebase and use of best practices. you can add
 - `npx eslint .` : for the `JavaScript` codebase and use of best practices
 - > Note that you can add `--fix` keyword to the command for `Css` and/or `JavaScript` to make sure that you avoid all errors coming from your `code editor`
+- `npm run test` : to run the test cases
 
 ## Author
 
