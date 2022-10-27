@@ -5,7 +5,7 @@ import SideBar from "../dashboard/SideBar";
 import Records from "./records/Records";
 import MissingRecords from "./records/MissingRecords";
 import EditedRecords from "./records/EditedRecords";
-import Pie from "./records/Pie";
+import PieChart from "./records/Pie";
 import "../../index.css";
 
 const MainPage = () => {
@@ -21,7 +21,7 @@ const MainPage = () => {
             <Records />
             <MissingRecords />
             <EditedRecords />
-            <Pie />
+            <PieChart />
           </main>
         </div>
       </ThemeProvider>

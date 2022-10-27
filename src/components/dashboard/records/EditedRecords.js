@@ -98,9 +98,7 @@ const EditedRecords = () => {
       >
         <DataGrid
           checkboxSelection
-          rows={records.mockDataRecords.filter(
-            (record) => record.edited === true
-          )}
+          rows={records.filter((record) => record.edited === true)}
           columns={columns}
         />
       </Box>

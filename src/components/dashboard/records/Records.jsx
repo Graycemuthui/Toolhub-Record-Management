@@ -106,11 +106,7 @@ const Records = () => {
           },
         }}
       >
-        <DataGrid
-          checkboxSelection
-          rows={records.mockDataRecords}
-          columns={columns}
-        />
+        <DataGrid checkboxSelection rows={records} columns={columns} />
       </Box>
     </Box>
   );
