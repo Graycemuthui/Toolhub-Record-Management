@@ -12,10 +12,8 @@ const Topbar = () => {
   const colorMode = useContext(ColorModeContext);
 
   return (
-    <Box display="flex" justifyContent="space-between" p={1}>
-      <Box display="flex">
-        <h1 sx={{ ml: 6, flex: 1 }}>Toolhub Records</h1>
-      </Box>
+    <Box display="flex" justifyContent="space-between" mt={7}>
+      <Box display="flex"></Box>
       {/* ICONS */}
       <Box display="flex">
         <IconButton onClick={colorMode.toggleColorMode}>

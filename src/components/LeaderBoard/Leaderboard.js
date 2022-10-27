@@ -37,7 +37,7 @@ const Leaderboard = () => {
             color: colors.greenAccent[400],
           },
           "& .MuiDataGrid-columnHeaders": {
-            backgroundColor: colors.blueAccent[700],
+            backgroundColor: colors.primary[900],
             borderBottom: "none",
           },
           "& .MuiDataGrid-virtualScroller": {
@@ -45,18 +45,14 @@ const Leaderboard = () => {
           },
           "& .MuiDataGrid-footerContainer": {
             borderTop: "none",
-            backgroundColor: colors.blueAccent[700],
+            backgroundColor: colors.primary[900],
           },
           "& .MuiCheckbox-root": {
-            color: `${colors.greenAccent[200]} !important`,
+            color: `${colors.grey[200]} !important`,
           },
         }}
       >
-        <DataGrid
-          checkboxSelection
-          rows={records.mockDataRecords}
-          columns={columns}
-        />
+        <DataGrid checkboxSelection rows={records} columns={columns} />
       </Box>
     </Box>
   );
