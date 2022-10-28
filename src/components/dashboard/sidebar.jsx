@@ -51,7 +51,7 @@ const SideBar = () => {
       }}
     >
       <ProSidebarProvider collapsed={isCollapsed}>
-        <Menu iconShape="square">
+        <Menu>
           <MenuItem
             onClick={() => setIsCollapsed(!isCollapsed)}
             icon={isCollapsed ? <MenuOutlinedIcon /> : undefined}
