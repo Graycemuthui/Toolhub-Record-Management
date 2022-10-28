@@ -6,7 +6,6 @@ import {
   Tab,
   Tabs,
   Toolbar,
-  Typography,
   useMediaQuery,
   useTheme,
 } from "@mui/material";
@@ -16,7 +15,6 @@ import Drawer from "@mui/material/Drawer";
 const Navbar = () => {
   const [value, setValue] = useState(false);
   const theme = useTheme();
-  console.log(theme);
   const isMatch = useMediaQuery(theme.breakpoints.down("md"));
   return (
     <React.Fragment>
