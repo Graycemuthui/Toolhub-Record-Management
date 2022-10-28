@@ -1,5 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import MainPage from "./components/dashboard/MainPage";
+import MainPage from "./components/dashboard/mainPage";
 import HomePage from "./components/HomePage/HomePage";
 import Navbar from "./components/Navigation/Navbar";
 import Leaderboard from "./components/LeaderBoard/Leaderboard";

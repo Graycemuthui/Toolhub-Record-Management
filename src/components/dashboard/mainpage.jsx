@@ -1,7 +1,7 @@
 import { ColorModeContext, useMode } from "../../color";
 import { CssBaseline, ThemeProvider } from "@mui/material";
-import TopBar from "../dashboard/TopBar";
-import SideBar from "../dashboard/SideBar";
+import TopBar from "./TopBar";
+import SideBar from "./SideBar";
 import Records from "./records/Records";
 import MissingRecords from "./records/MissingRecords";
 import EditedRecords from "./records/EditedRecords";
