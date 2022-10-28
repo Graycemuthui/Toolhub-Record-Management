@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-- Here is a live demo [link](https://spontaneous-mooncake-378561.netlify.app)
+- Here is a live demo [link](https://idyllic-banoffee-16802c.netlify.app/leaderboard)
 
 ## Getting Started
 
