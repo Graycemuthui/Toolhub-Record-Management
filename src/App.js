@@ -1,8 +1,8 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import MainPage from "./components/dashboard/mainPage.jsx";
-import HomePage from "./components/HomePage/HomePage.jsx";
-import Navbar from "./components/Navigation/Navbar,jsx";
-import Leaderboard from "./components/LeaderBoard/Leaderboard.jsx";
+import MainPage from "./components/dashboard/MainPage";
+import HomePage from "./components/HomePage/HomePage";
+import Navbar from "./components/Navigation/Navbar";
+import Leaderboard from "./components/LeaderBoard/Leaderboard";
 
 function App() {
   return (
