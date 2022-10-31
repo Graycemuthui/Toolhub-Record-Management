@@ -1,6 +1,6 @@
 # Project Name : Toolhub Record Management
 
-> This project entails record management for the toolhub project. It consists of  a Homepage, Leaderboard and Dashboard.
+> This project entails record management for the toolhub project. It consists of a Homepage, Leaderboard and Dashboard.
 
 ## Built With
 
@@ -11,7 +11,7 @@
 
 ## Live Demo
 
-- Here is a live demo [link](https://idyllic-banoffee-16802c.netlify.app/leaderboard)
+- Here is a live demo [link](https://relaxed-sfogliatella-15fbe6.netlify.app/)
 
 ## Getting Started
 
